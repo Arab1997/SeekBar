@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:id="@+id/linearLayout"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="32sp" />
+
+    <SeekBar
+        android:id="@+id/seekbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:minWidth="100dp"
+        android:padding="8dp"
+        android:progress="10"
+        android:progressBackgroundTint="@android:color/black"
+        android:progressTint="@color/colorPrimaryDark" />
+
+    <SeekBar
+        android:id="@+id/seekbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:padding="8dp"
+        android:progress="10"
+        android:progressBackgroundTint="@android:color/holo_green_light"
+        android:progressTint="@android:color/black"
+        android:thumbOffset="-20dp"
+        android:thumbTint="@color/colorPrimary" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4"
+        android:padding="8dp"
+        android:progress="1"
+        android:progressTint="@android:color/holo_green_light"
+        android:thumbTint="@color/colorPrimary"
+
+        android:tickMarkTint="@color/colorAccent" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar5"
+        style="@android:style/Widget.Material.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar6"
+        style="@android:style/Widget.Material.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:padding="8dp" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:padding="8dp"
+        android:progress="10"
+        android:thumbTint="@color/colorPrimary"
+        android:tickMark="@android:drawable/checkbox_on_background"
+        android:tickMarkTint="@android:color/black" />
+
+    <SeekBar
+        android:id="@+id/seekbar8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:padding="8dp"
+        android:progress="10"
+        android:splitTrack="false"
+        android:thumbTint="@color/colorPrimary"
+        android:tickMark="@android:drawable/checkbox_on_background"
+        android:tickMarkTint="@android:color/black" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:splitTrack="false"
+        android:thumb="@mipmap/ic_launcher" />
+
+</LinearLayout>
